@@ -1,0 +1,17 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #30638e;
+	color: white;
+}
+
+.navitems {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70vw;
+}
+.hero {
+	/* justify-self: flex-start; */
+}

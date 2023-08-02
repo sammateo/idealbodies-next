@@ -1,15 +1,25 @@
+"use client";
 import React from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
-export default function Navbar() {
-	return (
-		<div className={styles.navbar}>
-			<h2 className={styles.hero}>Ideal Bodies</h2>
+import { usePathname } from "next/navigation";
 
+export default function Navbar() {
+	const pathname = usePathname();
+
+	const navStyle = {
+		backgroundColor: pathname === "/" ? "transparent" : "#88B06A",
+	};
+	console.log(pathname);
+	return (
+		<div className={styles.navbar} style={navStyle}>
+			<Link className="navlink" href="/">
+				<h2 className={styles.hero}>Ideal Bodies Fitness Studio</h2>
+			</Link>
 			<div className={styles.navitems}>
 				<p>
 					<Link className="navlink" href="/">
-						Home
+						Packages
 					</Link>
 				</p>
 				<p>

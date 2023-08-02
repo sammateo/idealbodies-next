@@ -2,15 +2,19 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
-	background-color: #30638e;
+	width: 100vw;
+	/* background-color: #30638e; */
 	color: white;
+	position: absolute;
+	top: 0;
 }
 
 .navitems {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 70vw;
+	width: 60vw;
+	/* background-color: black; */
 }
 .hero {
 	/* justify-self: flex-start; */

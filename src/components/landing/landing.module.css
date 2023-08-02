@@ -1,0 +1,16 @@
+.landing {
+	height: var(--landing-height);
+	min-height: 450px;
+	max-height: 1200px;
+}
+.mask {
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.3);
+	top: 0;
+	left: 0;
+	/* z-index: -10; */
+	height: var(--landing-height);
+	min-height: 450px;
+	max-height: 1200px;
+}

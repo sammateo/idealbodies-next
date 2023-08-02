@@ -1,3 +1,7 @@
+:root {
+	--landing-height: 80vh;
+	--primary-color: #88b06a;
+}
 * {
 	box-sizing: border-box;
 	padding: 0;

@@ -1,0 +1,6 @@
+.subtitle {
+	margin: 20px auto;
+	padding: 10px 20px;
+	width: fit-content;
+	border-bottom: 3px solid var(--primary-color);
+}
